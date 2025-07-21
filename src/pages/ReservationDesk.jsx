@@ -104,7 +104,7 @@ function ReservationDesk() {
       </div>
 
       {/* Menu tabs */}
-      <div className='mb-20 max-w-[1100px] mx-auto w-full'>
+      <div className='my-20 max-w-[1100px] mx-auto w-full'>
         {/* Menu Grid */}
         <div className="grid grid-cols-4 grid-rows-1 gap-3 h-[40vh] "> 
           
