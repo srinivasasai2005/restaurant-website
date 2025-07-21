@@ -70,7 +70,7 @@ function ContactPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="w-full h-[60vh] mx-auto px-6 py-16 font-sans bg-gray-50">
+        <div className="w-full h-[60vh] mx-auto px-6 py-16 my-10 font-sans bg-gray-50">
 
         {/* Contact Header */}
         <div className="grid md:grid-cols-2 px-30 gap-12">
