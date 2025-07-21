@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.swiper-pagination-bullet {
+  background: #d1d5db;
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #404144;
+  width: 11px;
+  height: 11px;
+}
+.swiper-wrapper {
+  max-width: 1300px;
+}
+
+p {
+  font-family: 'Jost', 'Inter', 'Open Sans', 'Overlock', sans-serif;
+}
+
+.navbar {
+  background-color: aqua;
+}
+button {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+.delay-100 {
+  animation-delay: 100ms;
+}
+.delay-200 {
+  animation-delay: 200ms;
+}
+.delay-300 {
+  animation-delay: 300ms;
+}
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.my-custom-toast {
+  @apply 
+  bg-zinc-900
+  text-white
+  rounded-lg
+}
+
+.my-toast-body {
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.my-progress-bar {
+  @apply bg-zinc-200/70
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
